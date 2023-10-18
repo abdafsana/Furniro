@@ -20,11 +20,40 @@
     .main-header-content button{
         padding: 15px 33px;
     }
+    .room-col{
+        padding: 0 10px;
+        width: 100%;
+    }
 }
 @media(max-width:768px){
     .main-header-content{
         padding: 30px 25px;
     }
+    .funiro-furniture-container{
+        max-height: 1300px;
+        min-height: 700px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center
+    }
+    .funiro-furniture-container .funiro-img-item{
+        width: 49%;
+        height: 250px !important;
+    }
+    .order-min-0{
+        order: 0;
+    }
+    .order-min-1{
+        order: 1;
+    }
+    .order-min-2{
+        order: 2;
+    }
+    .order-min-3{
+        order: 3;
+    }
+
 
 }
 @media(max-width:576px){
@@ -33,5 +62,23 @@
     }
     .main-header-content-head{
         width: 100%;
+    }
+    .furniture,.rooms-title{
+        font-size: 20px;
+    }
+    .room-desc{
+        font-size: 13px;
+    }
+    .funiro-furniture-container .funiro-img-item{
+        width: 100%;
+    }
+    .input-footer,.span-footer{
+        width: 100%;
+    }
+    .span-location{
+        line-height: 1.4;
+    }
+    .span-footer,.footer-card-title,.link-footer a{
+        margin-bottom: 15px;
     }
 }
