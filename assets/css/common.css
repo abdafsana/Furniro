@@ -72,7 +72,7 @@
 .navbar-item-icons{
     gap: 45px;
 }
-header{
+.home-header{
     width: 100%;
     height: 100vh;
     min-height: 600px;
@@ -147,15 +147,6 @@ section{
 .card-height{
     height:470px !important;
 }
-    /* .overlay{
-        width: 100%;
-        height: 100%;
-        flex-wrap: wrap;
-        display: flex;
-        cursor: pointer;
-        background-color: yellow;
-        z-index: 100;
-    } */
 .products-title{
     font-size: 40px;
     font-weight: 700;
@@ -372,8 +363,6 @@ section{
     height: 100%;
     object-fit: cover;
 }
-
-
 .furniro-footer{
     border-top: 1px solid rgba(0, 0, 0, 0.17);
 }
@@ -454,3 +443,14 @@ section{
     color: var(--color-black);
     font-family: var(--font-poppins);
 }
+
+/* Shop Page Start*/
+.page-header{
+    width: 100%;
+    height: 316px;
+    background-image: url(../img/shop-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.
