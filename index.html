@@ -23,13 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="shop.html">Shop</a>
+            <a class="nav-link" href="./shop.html">Shop</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="./index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./ProductDetail.html">Product</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Blog</a>
@@ -38,8 +41,8 @@
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
-        <div class="navbar-item-icons d-flex">
-          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+        <div class="navbar-item-icons d-flex" >
+          <svg data-bs-toggle="modal" data-bs-target="#searchModal" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
             <path
               d="M24.5 24.5L19.2663 19.257M22.1666 12.25C22.1666 14.88 21.1219 17.4024 19.2621 19.2621C17.4024 21.1219 14.88 22.1666 12.25 22.1666C9.61992 22.1666 7.09757 21.1219 5.23784 19.2621C3.3781 17.4024 2.33331 14.88 2.33331 12.25C2.33331 9.61992 3.3781 7.09757 5.23784 5.23784C7.09757 3.3781 9.61992 2.33331 12.25 2.33331C14.88 2.33331 17.4024 3.3781 19.2621 5.23784C21.1219 7.09757 22.1666 9.61992 22.1666 12.25V12.25Z"
               stroke="black" stroke-width="2" stroke-linecap="round" />
@@ -53,6 +56,27 @@
       </div>
     </div>
   </nav>
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <input type="search" class="form-control" placeholder="Search furniture">
+              </div>
+              <button type="submit" class="btn search-btn">Search</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!--Furniro One-->
   <header class="home-header">
@@ -109,10 +133,9 @@
     <section>
       <div class="container">
         <h3 class="products-title">Our Products</h3>
-        <div class="overlay">
           <div class="row g-4 product-row">
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#"  class="card border-0 w-100 px-3 card-height" data-after-content="" data-before-content="-30%">
                 <img src="./assets/img/product 1.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Syltherine</h5>
@@ -121,20 +144,20 @@
                     <span class="d-block">Rp 3.500.000</span>
                   </strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="" data-before-content="">
                 <img src="./assets/img/product 2.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Leviosa</h5>
                   <p class="card-text-products">Stylish cafe chair</p>
                   <strong class="product-price">Rp 2.500.000</strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="" data-before-content="-50%">
                 <img src="./assets/img/product 3.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Lolito</h5>
@@ -143,40 +166,40 @@
                     <span class="d-block">Rp 14.000.000</span>
                   </strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="New" data-before-content="">
                 <img src="./assets/img/product 4.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Respira</h5>
                   <p class="card-text-products">Outdoor bar table and stool</p>
                   <strong class="product-price">Rp 500.000</strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="" data-before-content="">
                 <img src="./assets/img/product 5.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Grifo</h5>
                   <p class="card-text-products">Night lamp</p>
                   <strong class="product-price">Rp 1.500.000</strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="New" data-before-content="">
                 <img src="./assets/img/product 6.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Muggo</h5>
                   <p class="card-text-products">Small mug</p>
                   <strong class="product-price">Rp 150.000</strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="" data-before-content="-50%">
                 <img src="./assets/img/product 7.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Pingky</h5>
@@ -185,17 +208,17 @@
                     <span class="d-block">Rp 14.000.000</span>
                   </strong>
                 </div>
-              </div>
+              </a>
             </div>
             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div class="card border-0 w-100 px-3 card-height">
+              <a href="#" class="card border-0 w-100 px-3 card-height" data-after-content="New" data-before-content="">
                 <img src="./assets/img/product 8.png" alt="">
                 <div class="card-body-products p-3">
                   <h5 class="card-title">Potty</h5>
                   <p class="card-text-products">Minimalist flower pot</p>
                   <strong class="product-price">Rp 500.000</strong>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -205,7 +228,7 @@
       </div>
     </section>
     <!--Beautifule Rooms-->
-    <section class="rooms-section py-5">
+    <section class="rooms-section py-5" id="about">
       <div class="container">
         <div class="row">
           <div class="mb-2 col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-center justify-content-center">
@@ -320,7 +343,7 @@
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Enter Your Email Address"
                     aria-label="Email Address" aria-describedby="button-addon2">
-                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">SUBSCRIBE</button>
                 </div>
               </div>
             </div>
@@ -334,6 +357,7 @@
   </main>
 
   <script src="./assets/js/bootstrap.bundle.js"></script>
+  <!-- <script src="./assets/js/search.js"></script> -->
 </body>
 
 </html>

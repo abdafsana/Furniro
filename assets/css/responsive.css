@@ -24,6 +24,9 @@
         padding: 0 10px;
         width: 100%;
     }
+    .sofa-image-item .row{
+        gap: 15px !important;
+    }
 }
 @media(max-width:768px){
     .main-header-content{
@@ -53,8 +56,9 @@
     .order-min-3{
         order: 3;
     }
-
-
+      .products-item-a .col-sm-12{
+           padding-bottom: 10px;
+    }
 }
 @media(max-width:576px){
     .pb-mobile-2{
@@ -80,5 +84,15 @@
     }
     .span-footer,.footer-card-title,.link-footer a{
         margin-bottom: 15px;
+    }
+    .footer-planning .planning-paragraph{
+        font-size: 22px;
+    }
+    .footer-planning .planning-span{
+        font-size: 16px;
+    }
+    .footer-planning  .col-xxl-3 svg{
+        width: 50px;
+        height: 50px;
     }
 }
