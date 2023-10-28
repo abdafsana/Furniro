@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./assets/css/bootstrap.css" />
     <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
-  <body>
     <!--Navbar item-->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
@@ -83,70 +82,78 @@
       </div>
     </nav>
     <!--Product Header-->
-    <header class="shop-about-item gap-3">
-      <a href="./index.html">Home</a>
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g id="dashicons:arrow-down-alt2">
-          <path
-            id="Vector"
-            d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z"
-            fill="black"
-          />
-        </g>
-      </svg>
-      <a href="./shop.html">Shop</a>
-      <svg
-        width="20"
-        height="20"
-        viewBox="0 0 20 20"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <g id="dashicons:arrow-down-alt2">
-          <path
-            id="Vector"
-            d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z"
-            fill="black"
-          />
-        </g>
-      </svg>
-      <div class="line-header-item"></div>
-      <p>Asgaard sofa </p>
-    </header>
+      <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xxl-12 shop-about-item">
+          <a href="./index.html">Home</a>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="dashicons:arrow-down-alt2">
+              <path
+                id="Vector"
+                d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z"
+                fill="black"
+              />
+            </g>
+          </svg>
+          <a href="./shop.html">Shop</a>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g id="dashicons:arrow-down-alt2">
+              <path
+                id="Vector"
+                d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z"
+                fill="black"
+              />
+            </g>
+          </svg>
+          <div class="line-header-item"> <p>Asgaard sofa </p></div>
+         
+        </div>
+      </div>
+    </div>
+  </header>
 
     <main>
       <!--Product Detail-->
-      <section>
+      <section class="product-details-main">
         <div class="container">
           <div class="row gap-0">
-            <div class="col-6 d-flex justify-content-center align-items-center">
-              <div class="col-3 product-detail">
-                <div class="product-image-container mb-3">
-                  <img src="./assets/img/sofa-pc-1.png" alt="" />
+            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-3">
+              <div class="row">
+                <div class="col-xxl-2 col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12 product-detail mb-3">
+                  <div class="product-image-container">
+                    <img src="./assets/img/sofa-pc-1.png" alt="" />
+                  </div>
+                  <div class="product-image-container">
+                    <img src="./assets/img/sofa-pc-2.png" alt="" />
+                  </div>
+                  <div class="product-image-container">
+                    <img src="./assets/img/sofa-pc-3.png" alt="" />
+                  </div>
+                  <div class="product-image-container">
+                    <img src="./assets/img/sofa-pc-4.png" alt="" />
+                  </div>
                 </div>
-                <div class="product-image-container mb-3">
-                  <img src="./assets/img/sofa-pc-2.png" alt="" />
-                </div>
-                <div class="product-image-container mb-3">
-                  <img src="./assets/img/sofa-pc-3.png" alt="" />
-                </div>
-                <div class="product-image-container mb-3">
-                  <img src="./assets/img/sofa-pc-4.png" alt="" />
-                </div>
-              </div>
-              <div class="col-9">
-                <div class="product-detail-bigpicture">
-                  <img src="./assets/img/sofa-pc-common.png" alt="" />
+                <div class="col-xxl-10 col-xl-9 col-lg-9 col-md-8 col-sm-12 col-12 product-detail-main-img">
+                  <div class="product-detail-bigpicture">
+                    <img src="./assets/img/sofa-pc-common.png" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-6 container-outline-item pb-5">
+            <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12 mb-3 container-outline-item align-items-center">
               <h1 class="asgard-title-item">Asgaard sofa</h1>
               <span class="asgard-title-span">Rs. 250,000.00</span>
               <div class="star-common-item">
@@ -240,30 +247,23 @@
               </p>
               <span class="product-common">Size</span>
               <div class="size-item-container mt-3 mb-3">
-                <div class="size-item-product">L</div>
+                <div class="size-item-product size-item-active">L</div>
                 <div class="size-item-product">XL</div>
                 <div class="size-item-product">XS</div>
               </div>
               <span class="product-common">Color</span>
               <div class="size-item-container mt-3">
-                <div class="color-item-violet"></div>
-                <div class="color-item-black"></div>
-                <div class="color-item-silver"></div>
+                <div class="color-item" style="background-color: var(--color-816DFA);"></div>
+                <div class="color-item" style="background-color: var(--color-black);"></div>
+                <div class="color-item" style="background-color: var(--color-b88e2f);"></div>
               </div>
-              <!-- p-2 d-flex justify-content-center align-items-center gap-4 -->
-              <div class="product-item-button mt-3 d-flex gap-4">
-                <div class="plus-minus-item outline-div-item gap-4">
-                  <div class="minus-item">-</div>
+              <div class="product-item-button mt-3 mb-4 d-flex gap-4">
+                <div class="plus-minus-item gap-4">
+                  <div class="operator-item minus-item">-</div>
                   <div class="number-item">1</div>
-                  <div class="plus-item">+</div>
+                  <div class="operator-item plus-item">+</div>
                 </div>
                 <div class="add-product-item outline-div-item">Add To Cart</div>
-                <div class="compare-common-item outline-div-item gap-3">
-                  <div class="plus-two-item">+</div>
-                  <div class="compare-product-item">Compare</div>
-                </div>
-                <!-- <button class="btn btn-outline-dark p-2" type="button">Add To Cart</button> -->
-                <!-- <button class="btn btn-outline-dark p-2" type="button">Compare</button> -->
               </div>
             </div>
           </div>

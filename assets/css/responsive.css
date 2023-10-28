@@ -59,6 +59,20 @@
       .products-item-a .col-sm-12{
            padding-bottom: 10px;
     }
+    .product-details-main .col-sm-12{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .product-detail-bigpicture>img{
+        width: 100%;
+        height: 100%;
+    }
+    .product-details-main .product-detail-bigpicture{
+        width: 100%;
+        height: 100%;
+    }
 }
 @media(max-width:576px){
     .pb-mobile-2{
