@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
-  <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+      <!--Nav bar-->
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand d-flex" href="#"><img src="./assets/img/furniro-logo.png" alt="furniro-logo"><img
           src="./assets/img/logo-text.png" alt="Furniro"></a>
@@ -57,258 +57,107 @@
       </div>
     </div>
   </nav>
-      <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog  modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <input type="search" class="form-control" placeholder="Search furniture">
-                </div>
-                <button type="submit" class="btn search-btn">Search</button>
-              </form>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog  modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <input type="search" class="form-control" placeholder="Search furniture">
+              </div>
+              <button type="submit" class="btn search-btn">Search</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
-      <!-- Shop Header -->
-      <header class="page-header">
+    </div>
+    <!-- Header -->
+    <header class="page-header">
         <div class="container h-100">
-            <div class="row h-100 align-items-center text-center">
-                <div class="col-xxl-12">
-                    <h1 class="shop-title">Shop</h1>
-                    <a class="home-shop-link" href="./index.html">Home</a>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g id="dashicons:arrow-down-alt2">
-                            <path id="Vector" d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black"/>
-                            </g>
-                            </svg>
-                           <span>Shop</span> 
-                        
-                </div>
-              
+          <div class="row h-100 align-items-center text-center">
+            <div class="col-xxl-12">
+              <img src="./assets/img/furniro-logo.png" alt="" />
+              <h1 class="shop-title">Cart</h1>
+              <a class="home-shop-link" href="./index.html">Home</a>
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="dashicons:arrow-down-alt2">
+                  <path
+                    id="Vector"
+                    d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z"
+                    fill="black"
+                  />
+                </g>
+              </svg>
+              <span>Checkout</span>
             </div>
+          </div>
         </div>
-        
       </header>
-
       <main>
-      <section class="shop-section-one">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <p>Showing 1–16 of 32 results</p>
+        <section class="check">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-6">
+                        <p>Billing details</p>
+                        <span>First Name</span>
+                        <span>Last Name</span>
+                        <div class="div-input">
+                            <input type="text" class="input-details">
+                            <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Company Name (Optional)</span>
+                        <input type="text" class="input-details">
+                    </div>
+                    <div class="div-inputs">
+                        <span>Country / Region</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Street address</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Town / City</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Province</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>ZIP code</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Phone</span>
+                        <input type="text" class="input-details">
+                        </div>
+                        <div class="div-inputs">
+                        <span>Email address</span>
+                        <input type="text" class="input-details">
+                        <input type="text" class="input-details">
+                        </div>
+                    </div>
+                    <div class="col-xxl-6"></div>
                 </div>
-                <div class="col-6">
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Open this select furniture</option>
-                        <option value="1">Chair</option>
-                        <option value="2">Sofa</option>
-                        <option value="3">Table and Stool</option>
-                      </select>
-                </div>
-        
-    </div>
-    </div>
-      </section>
-      
-      <section>
-        <div class="container">
-            <div class="row g-4 product-row">
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 1.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Syltherine</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price ">Rp 2.500.000
-                      <span class="d-block">Rp 3.500.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 2.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Leviosa</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price">Rp 2.500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 3.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Lolito</h5>
-                    <p class="card-text-products">Luxury big sofa</p>
-                    <strong class="product-price">Rp 7.000.000
-                      <span class="d-block">Rp 14.000.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 4.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Respira</h5>
-                    <p class="card-text-products">Outdoor bar table and stool</p>
-                    <strong class="product-price">Rp 500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 1.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Syltherine</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price ">Rp 2.500.000
-                      <span class="d-block">Rp 3.500.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 2.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Leviosa</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price">Rp 2.500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 3.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Lolito</h5>
-                    <p class="card-text-products">Luxury big sofa</p>
-                    <strong class="product-price">Rp 7.000.000
-                      <span class="d-block">Rp 14.000.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 4.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Respira</h5>
-                    <p class="card-text-products">Outdoor bar table and stool</p>
-                    <strong class="product-price">Rp 500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 1.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Syltherine</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price ">Rp 2.500.000
-                      <span class="d-block">Rp 3.500.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 2.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Leviosa</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price">Rp 2.500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 3.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Lolito</h5>
-                    <p class="card-text-products">Luxury big sofa</p>
-                    <strong class="product-price">Rp 7.000.000
-                      <span class="d-block">Rp 14.000.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 4.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Respira</h5>
-                    <p class="card-text-products">Outdoor bar table and stool</p>
-                    <strong class="product-price">Rp 500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 1.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Syltherine</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price ">Rp 2.500.000
-                      <span class="d-block">Rp 3.500.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 2.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Leviosa</h5>
-                    <p class="card-text-products">Stylish cafe chair</p>
-                    <strong class="product-price">Rp 2.500.000</strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 3.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Lolito</h5>
-                    <p class="card-text-products">Luxury big sofa</p>
-                    <strong class="product-price">Rp 7.000.000
-                      <span class="d-block">Rp 14.000.000</span>
-                    </strong>
-                  </div>
-                </div>
-              </div>
-              <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <div class="card border-0 w-100 px-3 card-height">
-                  <img src="./assets/img/product 4.png" alt="">
-                  <div class="card-body-products p-3">
-                    <h5 class="card-title">Respira</h5>
-                    <p class="card-text-products">Outdoor bar table and stool</p>
-                    <strong class="product-price">Rp 500.000</strong>
-                  </div>
-                </div>
-              </div>
-              </div>
-              <div class="pagination d-flex align-items-center justify-content-center gap-3">
-                <span>Previous</span>
-                 <span>1</span>
-                 <span>2</span>
-                 <span>3</span>
-                 <span>Next</span>
-              </div>
-              </div>
-      </section>
+            </div>
+        </section>
 
+        
       <section class="footer-planning">
         <div class="container-fluid">
             <div class="row">
@@ -383,55 +232,75 @@
             </div>
         </div>
       </section>
-    </main>
-    
-          <footer class="furniro-footer pt-5">
-            <div class="container">
-              <div class="row">
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-2 order-min-0">
-                  <div class="footer-card">
-                    <p class="footer-card-title">Funiro.</p>
-                    <span class="span-location">400 University Drive Suite 200 Coral
-                      Gables,
-                      FL 33134 USA</span>
-                  </div>
-                </div>
-                <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-2">
-                  <div class="footer-card">
-                    <span class="span-footer">Links</span>
-                    <a href="">Home</a>
-                    <a href="">Shop</a>
-                    <a href="">About</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
-                  </div>
-                </div>
-                <div class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-3">
-                  <div class="footer-card">
-                    <span class="span-footer">Help</span>
-                    <a href="">Payment Options</a>
-                    <a href="">Returns</a>
-                    <a href="">Privacy Policies</a>
-                  </div>
-                </div>
-                <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-1">
-                  <div class="footer-card">
-                    <span class="span-footer">Newsletter</span>
-                    <div class="input-footer">
-                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Enter Your Email Address"
-                          aria-label="Email Address" aria-describedby="button-addon2">
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">SUBSCRIBE</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-line">
-                <span class="footer-line-span">2023 furino. All rights reverved</span>
+      </main>
+
+          <!-- Footer section -->
+    <footer class="furniro-footer pt-5">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 mb-2 order-min-0"
+            >
+              <div class="footer-card">
+                <p class="footer-card-title">Funiro.</p>
+                <span class="span-location"
+                  >400 University Drive Suite 200 Coral Gables, FL 33134 USA</span
+                >
               </div>
             </div>
-          </footer>
+            <div
+              class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-2"
+            >
+              <div class="footer-card">
+                <span class="span-footer">Links</span>
+                <a href="">Home</a>
+                <a href="">Shop</a>
+                <a href="">About</a>
+                <a href="">Blog</a>
+                <a href="">Contact</a>
+              </div>
+            </div>
+            <div
+              class="col-xxl-2 col-xl-2 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-3"
+            >
+              <div class="footer-card">
+                <span class="span-footer">Help</span>
+                <a href="">Payment Options</a>
+                <a href="">Returns</a>
+                <a href="">Privacy Policies</a>
+              </div>
+            </div>
+            <div
+              class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 link-footer mb-2 order-min-1"
+            >
+              <div class="footer-card">
+                <span class="span-footer">Newsletter</span>
+                <div class="input-footer">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter Your Email Address"
+                      aria-label="Email Address"
+                      aria-describedby="button-addon2"
+                    />
+                    <button
+                      class="btn btn-outline-secondary"
+                      type="button"
+                      id="button-addon2"
+                    >
+                      SUBSCRIBE
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-line">
+            <span class="footer-line-span">2023 furino. All rights reverved</span>
+          </div>
+        </div>
+      </footer>
       <script src="./assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>

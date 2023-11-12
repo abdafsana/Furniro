@@ -1,6 +1,17 @@
+@media(max-width:1400px){
+    .card-about{
+          margin-bottom: 130px;
+    }
+    .card-about>.container>.row>.col-xxl-8{
+        margin-bottom: 20px;
+  }
+}
 @media(max-width:1200px){
     .main-header-row{
         justify-content: center;
+    }
+    .card-about>.container>.row>.col-xxl-8.details{
+        width: 1400px !important;
     }
 }
 @media(max-width:992px){
@@ -26,6 +37,9 @@
     }
     .sofa-image-item .row{
         gap: 15px !important;
+    }
+    .card-about>.container>.details>.details-list{
+        gap: 5px !important;
     }
 }
 @media(max-width:768px){
