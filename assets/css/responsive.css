@@ -41,6 +41,9 @@
     .card-about>.container>.details>.details-list{
         gap: 5px !important;
     }
+    .check>.container>.row>.col-md-12>.right-container{
+        padding:60px 0px !important;
+    }
 }
 @media(max-width:768px){
     .main-header-content{
