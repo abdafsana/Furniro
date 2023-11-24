@@ -524,6 +524,10 @@ section {
   padding: 38px 0;
   background: var(--color-F9F1E7);
 }
+.pagination{
+  width: 100%;
+  background-color: red;
+}
 .pagination span {
   display: flex;
   align-items: center;
@@ -534,7 +538,7 @@ section {
   font-family: var(--font-poppins);
   font-size: 16px;
   font-weight: 300;
-  padding: 15px;
+  padding: 20px;
   margin-top: 20px;
 }
 .footer-planning {

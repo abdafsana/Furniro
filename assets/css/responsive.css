@@ -138,4 +138,10 @@
     .contact-sttl{
         width: 100%;
     }
+    .pagination span {
+  font-size: 14px;
+  padding: 10px;
+
+
+    }
 }
