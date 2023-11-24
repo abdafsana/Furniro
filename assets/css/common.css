@@ -526,9 +526,8 @@ section {
 }
 .pagination{
   width: 100%;
-  background-color: red;
 }
-.pagination span {
+.pagination>span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -540,6 +539,11 @@ section {
   font-weight: 300;
   padding: 20px;
   margin-top: 20px;
+}
+.pagination>span:hover{
+  color: var(--color-white);
+  background-color: var(--color-B88E2F);
+  cursor: pointer;
 }
 .footer-planning {
   width: 100%;
