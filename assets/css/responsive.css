@@ -15,6 +15,9 @@
   }
 }
 @media (max-width: 992px) {
+  .contact-sttl {
+    width: 80%;
+  }
   .navbar-nav {
     gap: 10px;
     margin-top: 15px;
@@ -46,6 +49,9 @@
   }
 }
 @media (max-width: 768px) {
+  .contact-sttl {
+    width: 80%;
+  }
   .main-header-content {
     padding: 30px 25px;
   }
