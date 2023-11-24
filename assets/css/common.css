@@ -1096,7 +1096,7 @@ section {
   margin-bottom: 0px !important;
 }
 .input-details-con{
-  width: 527px;
+  width: 90%;
   height: 75px;
   border-radius: 10px;
   border: 1px solid var(--color-9F9F9F);
@@ -1122,7 +1122,7 @@ section {
   padding: 20px !important;
 }
 .txt-contact{
-  width: 527px !important;
+  width: 90% !important;
   min-height: 120px !important;
   max-height: 250px !important;
 }
@@ -1133,4 +1133,8 @@ section {
   border-radius: 5px;
   border: 1px solid var(--color-B88E2F);
   background: var(--color-B88E2F);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  font-size: 16px;
+  font-weight: 400;
 }
