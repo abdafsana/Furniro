@@ -1138,3 +1138,7 @@ section {
   font-size: 16px;
   font-weight: 400;
 }
+.contact-button>.btn-contact:hover{
+  background-color: #facd65;
+  color: var(--color-white);
+}
