@@ -152,4 +152,7 @@
     font-size: 14px;
     padding: 10px;
   }
+  .blog-input{
+    width: 60%;
+  }
 }
