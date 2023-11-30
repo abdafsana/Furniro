@@ -1178,8 +1178,8 @@ section {
 .blog-div--text>h4{
   margin-top: 19px;
   color: var(--color-black);
-  font-family: var(--font-poppins);
   font-size: 30px;
+  font-family: var(--font-poppins);
   font-weight: 500;
 }
 .blog-div--text>p{
@@ -1291,11 +1291,6 @@ section {
   font-weight: 400;
 }
 .blog-pagination>.pagination{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.page-item{
   display: flex;
   align-items: center;
   justify-content: center;
