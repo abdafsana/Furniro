@@ -785,7 +785,7 @@ section {
 }
 .card-about {
   width: 100%;
-  height: 525px;
+  height: 700px;
 }
 .details {
   width: 95%;
@@ -796,14 +796,14 @@ section {
   background: var(--color-F9F1E7);
 }
 .detail-card {
-  width: 817px;
+  width:95%;
 }
 .card-body-details {
+  gap: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 60px;
 }
 .number-div {
   width: 32px;
@@ -814,15 +814,15 @@ section {
   line-height: 32px;
 }
 .details-text {
+  font-size: 16px;
   color: var(--color-9F9F9F);
   font-family: var(--font-poppins);
-  font-size: 16px;
   font-weight: 400;
 }
 .details-subtext {
+  font-size: 16px;
   color: var(--color-black);
   font-family: var(--font-poppins);
-  font-size: 16px;
   font-weight: 400;
 }
 .fa-trash {
@@ -848,8 +848,8 @@ section {
   padding-left: 20px;
 }
 .card-div {
-  width: 393px;
-  height: 390px;
+  width:100%;
+  height: 390px !important;
   background-color: var(--color-F9F1E7) !important;
   border-radius: 0% !important;
   border-style: hidden !important;
