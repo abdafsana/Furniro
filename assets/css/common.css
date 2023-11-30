@@ -839,7 +839,7 @@ section {
   justify-content: center;
 }
 .details-list {
-  width: 78%;
+  width: 78% !important;
   list-style: none;
   margin: auto;
   gap: 20px;
@@ -891,9 +891,9 @@ section {
   font-weight: 400;
 }
 .yellow-span {
+  font-size: 20px;
   color: var(--color-b88e2f);
   font-family: var(--font-poppins);
-  font-size: 20px;
   font-weight: 500;
 }
 .check {
