@@ -234,4 +234,7 @@
 .details{
   padding: 0 5px !important;
 }
+.details-list>li{
+  font-size: 13px;
+}
 }
